@@ -2,11 +2,13 @@
 
 **Geospatial data engineering, machine learning, and public health | Research in progress**
 
-I'm a research assistant working with **Dr. Rishi Mediratta** at Stanford on a collaborative effort to develop an early-warning system for **pneumonia, malaria, and diarrheal disease among children under five in Ethiopia**. The goal is to investigate whether historical health surveillance, climate and environmental conditions, and population-level risk factors can help anticipate increases in disease burden **one to four weeks ahead**.
+I'm a research assistant working with **Dr. Rishi Mediratta** on a Stanford-led collaborative research effort to develop an early-warning system for **pneumonia, malaria, and diarrheal disease among children under five in Ethiopia**. The goal is to investigate whether historical health surveillance, climate and environmental conditions, and population-level risk factors can help anticipate increases in disease burden **one to four weeks ahead**.
 
 The long-term aim is practical: give public health teams more time to prepare supplies, staffing, and care capacity in places likely to experience a surge. Potential responses include positioning oxygen and antibiotics for pneumonia, antimalarials, oral rehydration supplies, and other resources before facilities become overwhelmed.
 
 This research involves collaborators at **Stanford University and Addis Ababa University**, alongside stakeholders at **Ethiopia's Ministry of Health (MoH) and Ethiopian Public Health Institute (EPHI)**. The system is being developed and evaluated as research; **it is not a deployed or clinically validated public health alert system**.
+
+**Scope:** This overview describes my Stanford EthiopiaSpikes research. It does not describe or incorporate methods, data, results, or collaborations from my other research projects.
 
 ## The problem
 
@@ -26,7 +28,6 @@ The project combines, or is designed to incorporate, several complementary sourc
 | **Satellite precipitation: CHIRPS and NASA IMERG** | Rainfall totals, variability, and extreme precipitation | Potential early environmental signals, including lagged rainfall patterns |
 | **Weather and atmospheric reanalysis: ERA5-Land, NASA MERRA-2, and CAMS** | Temperature, humidity, soil moisture, and air-pollution or aerosol proxies | Environmental feature engineering and comparisons of source coverage and latency |
 | **Earth observation and geography: MODIS NDVI, elevation, administrative boundaries, and population estimates** | Vegetation, terrain, woreda boundaries, and estimated under-five populations | Geographic harmonization, environmental context, and population denominators |
-| **National health call-center information** | Aggregated symptom- or illness-related call trends, if available under an agreement | Proposed additional surveillance signal; not represented as an already validated input |
 
 DHS provides **infrequent, survey-based context**, not live weekly measurements. Similarly, openly accessible satellite products do not make the full, integrated research dataset open for redistribution.
 
