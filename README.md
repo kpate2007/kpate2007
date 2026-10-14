@@ -2,7 +2,7 @@
 
 I build software and applied machine-learning systems, with a focus on **human-centered AI, health, and practical tools**. I also like making useful things a little more fun :)
 
-I'm a Stanford University student (Class of 2029) studying electrical engineering and exploring the intersection of AI, public health, and autonomous systems.
+I'm a Stanford University undergrad studying electrical engineering and exploring the intersection of AI, public health, and autonomous systems.
 
 [LinkedIn](https://www.linkedin.com/in/kushpatel2007/) · [Email](mailto:kushalp@stanford.edu)
 
