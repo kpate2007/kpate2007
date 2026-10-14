@@ -23,6 +23,4 @@ I'm a Stanford University student (Class of 2029) studying electrical engineerin
 - Accessibility and human-centered AI
 - Building useful software (occasionally with Pokémon involved :))
 
-Outside of coding, I help lead Stanford BASES, fence on Stanford's varsity team, and work at the intersection of technology and public health.
-
 The linked Ethiopia and Pathlight overviews intentionally contain **no private source code, research data, or internal documentation**.
