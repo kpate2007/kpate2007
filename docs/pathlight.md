@@ -1,37 +1,43 @@
 # Pathlight
 
-**Making everyday digital tasks more accessible through voice-first AI.**
+**A voice-first email and calendar assistant for blind and low-vision users.**
 
-[Pathlight website](https://pathlightproj.com) · ![Project](https://img.shields.io/badge/project-product_overview-4B5563) · ![Source](https://img.shields.io/badge/source-private-111827)
+[![Website](https://img.shields.io/badge/website-pathlightproj.com-111827)](https://pathlightproj.com)
+![Repository](https://img.shields.io/badge/repository-product_overview-4B5563)
 
-Pathlight is an accessibility-focused software project for blind and low-vision users. It explores how a voice-first interface can simplify everyday interactions with services such as email, calendars, and information retrieval.
+Pathlight is designed for the parts of digital life that should not require constant attention to a screen. It uses a focused voice interface to help people complete supported communication and scheduling tasks, starting with email and calendar.
 
-The goal is to reduce the steps and screen-dependent interactions needed to complete common digital tasks.
+## Current product surface
 
-## Product focus
+Pathlight is being designed to support:
 
-Pathlight is designed around workflows such as:
+- Reading and searching email
+- Drafting and replying to messages
+- Completing supported calendar tasks
+- Gmail, Outlook, and iCloud Mail
+- Google Calendar and Outlook Calendar
 
-- Finding, reading, and composing email.
-- Reviewing calendars and managing supported scheduling tasks.
-- Retrieving information through conversational requests.
-- Presenting responses in ways that work with nonvisual interaction.
+The goal is straightforward: let technology handle the interface work so users can stay focused on the life happening beyond the screen.
 
-Specific capabilities depend on the connected service and its permissions.
+## Product principles
 
-## Design principles
-
-- **Accessibility first:** build around blind and low-vision users' actual workflows.
-- **Voice first:** let people express goals naturally, without requiring a visual interface for every step.
-- **User control:** make consequential actions understandable and confirmable.
-- **Practical integrations:** focus on the communication tools people already use.
-
-## My involvement
-
-I co-founded Pathlight and have worked across product development, accessibility-focused user research, and bringing the technology into real-world testing.
+- **Voice first:** common tasks should be expressible in natural, direct requests.
+- **Task focused:** the assistant starts with a defined set of email and calendar workflows.
+- **Cross-provider:** one interaction model spans supported mail and calendar services.
+- **Accessibility led:** blind and low-vision users are the primary audience, not an edge case.
 
 ## About this repository
 
-This is a **public product overview only**. The implementation is maintained privately and is **not represented here as open-source software**. This page contains no application code, credentials, or private user information.
+This is Pathlight's public product-overview repository. The current application source is developed privately, so this repository intentionally contains no runnable client or service code and makes no open-source claim.
 
-For public product information, visit [pathlightproj.com](https://pathlightproj.com).
+For current product information or to request a demo, visit [pathlightproj.com](https://pathlightproj.com).
+
+## Earlier research
+
+Pathlight began with hardware and interface research around assistive navigation. Those experiments are preserved separately for technical and product history:
+
+- [`cursorPathlight`](https://github.com/ariyannp07/cursorPathlight) — Jetson-based wearable navigation prototype
+- [`Pathlight_websitev2`](https://github.com/ariyannp07/Pathlight_websitev2) — final landing-page concept for the former wearable direction
+- [`Pathlight_website`](https://github.com/ariyannp07/Pathlight_website) — first landing-page iteration
+
+Those repositories describe a previous product direction and are not documentation for the current Pathlight assistant.
